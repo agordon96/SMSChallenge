@@ -1,0 +1,36 @@
+<h1 id="tableLabel">Message Service</h1>
+
+<p>Challenge for TapMango (messaging service with API limits).</p>
+
+<div>
+  <label>Messages being processed: {{ msg_count }}</label>
+</div>
+
+<div>
+  <label class="filter-label">Account Number: <input [(ngModel)]="accountNumber" type="number"></label>
+  <label class="filter-label">Phone Number: <input [(ngModel)]="phoneNumber" type="number"></label>
+  <label class="filter-label">Start Date: <input [(ngModel)]="startDate" type="date"></label>
+  <label class="filter-label">End Date: <input [(ngModel)]="endDate" type="date"></label>
+  <button (click)="fetchStats()">Filter</button>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Account Number</th>
+      <th>Phone Numbers</th>
+      <th>Last Updated</th>
+      <th>Success Count</th>
+      <th>Failure Count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let stat of stats">
+      <td>{{ stat.account_number }}</td>
+      <td>{{ stat.phone_numbers }}</td>
+      <td>{{ stat.last_updated | date:'short' }}</td>
+      <td>{{ stat.success_count }}</td>
+      <td>{{ stat.failure_count }}</td>
+    </tr>
+  </tbody>
+</table>

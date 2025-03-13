@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "smschallenge.client", "smschallenge.client\smschallenge.client.esproj", "{BDC20998-CEF9-CA78-CF83-BBFB9B7F50AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSChallenge.Server", "SMSChallenge.Server\SMSChallenge.Server.csproj", "{E17B5180-6D8A-46C7-91CF-5C42DF600D4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSChallengeTests", "SMSChallengeTests\SMSChallengeTests.csproj", "{5B7D5C34-D6CB-49B3-828A-6EB2821AA898}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDC20998-CEF9-CA78-CF83-BBFB9B7F50AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC20998-CEF9-CA78-CF83-BBFB9B7F50AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC20998-CEF9-CA78-CF83-BBFB9B7F50AD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BDC20998-CEF9-CA78-CF83-BBFB9B7F50AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC20998-CEF9-CA78-CF83-BBFB9B7F50AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDC20998-CEF9-CA78-CF83-BBFB9B7F50AD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E17B5180-6D8A-46C7-91CF-5C42DF600D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E17B5180-6D8A-46C7-91CF-5C42DF600D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E17B5180-6D8A-46C7-91CF-5C42DF600D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E17B5180-6D8A-46C7-91CF-5C42DF600D4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B7D5C34-D6CB-49B3-828A-6EB2821AA898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B7D5C34-D6CB-49B3-828A-6EB2821AA898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B7D5C34-D6CB-49B3-828A-6EB2821AA898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B7D5C34-D6CB-49B3-828A-6EB2821AA898}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B900500-3793-4C3A-AD6F-7135BB3B9213}
+	EndGlobalSection
+EndGlobal

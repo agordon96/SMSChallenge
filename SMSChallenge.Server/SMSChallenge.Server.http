@@ -1,0 +1,11 @@
+@SMSChallenge.Server_HostAddress = http://localhost:5100
+
+POST {{SMSChallenge.Server_HostAddress}}/Message/send
+Accept: application/json
+
+###
+
+GET {{SMSChallenge.Server_HostAddress}}/Message/heartbeat/
+Accept: application/json
+
+###
